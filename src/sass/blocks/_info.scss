@@ -19,11 +19,13 @@
     &::before{
         content: '';
         position: absolute;
-        top: 0;
+        top: 50%;
         left: 0;
         width: 21px;
         height: 21px;
+        transform: translate(0%, -50%); 
         background: url(../img/map.svg) no-repeat;
+        background-position: center;
     }
 }
 
