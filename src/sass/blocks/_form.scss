@@ -36,10 +36,21 @@
     line-height: 1.23;
     text-align: center;
     margin-top: 11px;
+
+    &--bottom{
+        @include mediaTablet{
+            display: grid;
+            grid-row: 4 / 5;
+        }
+    }
 }
 
 .cta__form{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 35px 30px;
+
+    @include mediaTablet{
+        grid-template-columns: 1fr;
+    }
 }
