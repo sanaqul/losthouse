@@ -9,10 +9,16 @@
         top: 180;
         line-height: 1;
     }
+    @include mediaTablet{
+        padding: 90px 0;
+    }
 }
 
 .section-map__title{
     padding-bottom: 88px;
+    @include mediaTablet{
+        padding-bottom: 44px;
+    }
 }
 
 .map{
